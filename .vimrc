@@ -1,3 +1,8 @@
+call plug#begin()
+Plug 'morhetz/gruvbox'
+call plug#end()
+colorscheme gruvbox
+
 let g:table_mode_corner='|' "vim-table-mode compatível com tabelas markdown
 let g:surround_{char2nr('o')} = "**\r**" "faz negrito no markdown com VISUAL 'So'
 "vim-markdown tpope (ftplugin ja vem com vim)
@@ -19,7 +24,6 @@ set textwidth=78
 set list
 set listchars=tab:▸\ ,eol:¬
 set mouse=a
-colorscheme immortals
 " esquemas de cores escuros que gostei:
 " apprentice, papercolor, hybrid, blazer, hybrid-light, delek, saturn,
 " summerfruit256, leya, blazer, tango-desert, OceanicNextLight, immortals,
@@ -119,19 +123,19 @@ set number
 
 
 "Testa qual o Sistema Operacional
-if has('win32')
-    set dir=C:\Users\1538943\OneDrive\Vim\windows\swapfiles
-    set viewdir=C:\Users\1538943\OneDrive\Vim\windows\views
-    set backupdir=C:\Users\1538943\OneDrive\Vim\windows\swapfiles
-elseif has('mac')
-    set dir=/Users/thiagohubes/OneDrive/Vim/macos/swapfiles
-    set viewdir=/Users/thiagohubes/OneDrive/Vim/macos/views
-    set backupdir=/Users/thiagohubes/OneDrive/Vim/macos/swapfiles
-elseif has('unix')
-    set dir=/home/thiagohubes/OneDrive/Vim/swapfiles
-    set viewdir=/home/thiagohubes/OneDrive/Vim/views
-    set backupdir=/home/thiagohubes/OneDrive/Vim/swapfiles
-endif
+"if has('win32')
+"    set dir=C:\Users\1538943\OneDrive\Vim\windows\swapfiles
+"    set viewdir=C:\Users\1538943\OneDrive\Vim\windows\views
+"    set backupdir=C:\Users\1538943\OneDrive\Vim\windows\swapfiles
+"elseif has('mac')
+"    set dir=/Users/thiagohubes/OneDrive/Vim/macos/swapfiles
+"    set viewdir=/Users/thiagohubes/OneDrive/Vim/macos/views
+"    set backupdir=/Users/thiagohubes/OneDrive/Vim/macos/swapfiles
+"elseif has('unix')
+"    set dir=/home/thiagohubes/OneDrive/Vim/swapfiles
+"    set viewdir=/home/thiagohubes/OneDrive/Vim/views
+"    set backupdir=/home/thiagohubes/OneDrive/Vim/swapfiles
+"endif
 
 "set swapfile
 
