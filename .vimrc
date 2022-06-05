@@ -1,8 +1,8 @@
 
-call plug#begin()
-Plug 'morhetz/gruvbox'
-call plug#end()
-colorscheme gruvbox
+"call plug#begin()
+"Plug 'morhetz/gruvbox'
+"call plug#end()
+"colorscheme gruvbox
 
 let g:table_mode_corner='|' "vim-table-mode compatível com tabelas markdown
 let g:surround_{char2nr('o')} = "**\r**" "faz negrito no markdown com VISUAL 'So'
