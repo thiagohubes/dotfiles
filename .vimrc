@@ -1,9 +1,7 @@
-
 "call plug#begin()
 "Plug 'morhetz/gruvbox'
 "call plug#end()
 "colorscheme gruvbox
-
 let g:table_mode_corner='|' "vim-table-mode compatível com tabelas markdown
 let g:surround_{char2nr('o')} = "**\r**" "faz negrito no markdown com VISUAL 'So'
 "vim-markdown tpope (ftplugin ja vem com vim)
@@ -15,7 +13,6 @@ let g:markdown_minlines = 100
 let g:vim_markdown_auto_insert_bullets = 0
 let g:vim_markdown_new_list_item_indent = 0
 let game = 'bloodborne'
-
 set wrap "quando a linha fica maior que a tela
 set linebreak "quebra linhas que ultrapassam a tela no espaço entre palavras
 set dictionary=~/OneDrive/Vim/spell/en_pt.utf-8.add
